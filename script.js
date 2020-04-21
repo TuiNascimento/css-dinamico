@@ -48,5 +48,5 @@ function cancel(){
 }
 
 function naoSei(){
-    alert("Usuario:testuser \nSenha:mypassword")
+    alert("Usuario:usuarioteste \nSenha:senhateste")
 }
