@@ -12,34 +12,41 @@
     <body>
 
       <div class="containerTitulo"> 
-        <h1 class="titulo">Projeto variáveis CSS Dinâmicas</h1>
+        <h1 class="titulo">Projeto Formulário de Login + DarkTheme</h1>
       </div>  
-        <div class="row" id="row">
+        <div class="containerInterface" id="row">
             <div class="column">  
                 <div class="container">
-                    
-                    <label for="usuario" class="label">Usuário:</label> <br><br>
-                    <p id="avisoUsuario"></p> <br>
+                    <br>
+                    <label for="usuario" >Usuário:</label> <br>
+                    <p id="avisoUsuario" class="aviso"></p> 
                     <i class="fa fa-user"></i>
-                    <input type="text" id="usuario"  placeholder=" Username">
+                    <input type="text" class="input" id="usuario" placeholder=" Username">
                     
                 </div>
             </div>
             <div class="column">
                 <div class="container">
-                    <label for="senha" class="label" >Senha:</label><br><br>
-                    <p class="avisoSenha" id="avisoSenha"></p>
+                    <br>
+                    <label for="senha"  >Senha:</label><br>
+                    <p class="aviso" id="avisoSenha"></p>
                     <i class="fa fa-lock"></i>
                     <input type="password" id="senha"  placeholder=" *******">
                 </div>
-                <a onclick="naoSei()">Não sei meu usuário/senha!</a>
             </div>
-            <div class="loginContainer">
-                <button type="submit" onclick="login()" class="buttonLogin" id="buttonLogin">Entrar</button>
-                <button type="button" onclick="cancel()" class="buttonCancel">Cancelar</button>
+                <div class="containerNaoSei">
+                    <a onclick="naoSei()">Não sei meu usuário/senha!</a>
+                </div>
+            <div class="buttonsContainer">
+                <div class="containerButtonLogin">
+                    <button type="submit" onclick="login()" class="buttonLogin" id="buttonLogin">Entrar</button>
+                </div>
+                <div class="containerButtonCancel">    
+                    <button type="button" onclick="cancel()" class="buttonCancel">Cancelar</button>
+                </div>    
             </div>
         </div>
-       
+    
    
 
    
