@@ -39,16 +39,16 @@ function login(){
 
 function cancel(){
     document.getElementById("usuario").value=""
-    usuario.style.borderColor="initial"
+    usuario.style.borderColor="black"
     document.getElementById("avisoUsuario").innerHTML=""
     document.getElementById("senha").value=""
-    senha.style.borderColor="initial"
+    senha.style.borderColor="black"
     document.getElementById("avisoSenha").innerHTML=""
     
 }
 
 function naoSei(){
-    alert("Usuario:usuarioteste \nSenha:senhateste")
+    alert("\n \n Usuario:usuarioteste\n Senha:senhateste")
 }
 
 function focusInputLogin(){ 

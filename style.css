@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: middle left;
+    background-position: middle center;
     overflow: hidden ;
 }
 
@@ -107,6 +107,10 @@ body{
                 margin-top: 3%;
                 }    
                     a{
+                        color: var(--textoleve);
+                        transition: 0.3s;
+                    }
+                    a:hover{
                         color: whitesmoke;  
                     }
                     a:hover{
