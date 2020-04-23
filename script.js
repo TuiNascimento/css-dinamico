@@ -50,3 +50,11 @@ function cancel(){
 function naoSei(){
     alert("Usuario:usuarioteste \nSenha:senhateste")
 }
+
+function focusInputLogin(){ 
+    document.getElementById("usuario").focus();  
+}
+function focusInputPassword(){ 
+    document.getElementById("senha").focus();  
+}
+    
