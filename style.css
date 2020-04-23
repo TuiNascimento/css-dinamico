@@ -8,22 +8,23 @@ html{
 
 :root{
     --fundo: #1e1e1e;
-    --superficie:#292929;
+    --superficie:#363535;
     --texto: #e1e1e1;
     --textoleve: #a1a1a1;
 }
 body{
-    background-image: url("images/desert.jpg");
+    background-image: url("images/10-14-Mojave-12.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom center;
+    background-position: middle center;
     overflow: hidden ;
 }
 
         .containerTitulo{   
             text-align: center;
-            margin: 10% auto;
+            margin: 7% auto;
+          
             
         }
             .titulo{
@@ -46,8 +47,9 @@ body{
             width: 75%;
             height: 55%;
             opacity: 0.9;
-        
+            box-shadow: 0 0 4px black;
         }
+        
             .column{
                 width: fit-content;
                 justify-self: center;
@@ -59,8 +61,12 @@ body{
                     width: fit-content;
                     display: inline-block;
                     text-align: center;
-                   
+                    transition: 0.3s;
                 }
+                    .container:hover{
+                        box-shadow: 0 0 11px black;
+                        width: 100.5%;
+                    }
     
                     label{
                         color: var(--texto);
@@ -101,6 +107,10 @@ body{
                 margin-top: 3%;
                 }    
                     a{
+                        color: var(--textoleve);
+                        transition: 0.3s;
+                    }
+                    a:hover{
                         color: whitesmoke;  
                     }
                     a:hover{
@@ -141,3 +151,4 @@ body{
                         :focus{
                             outline: none ;
                         }
+
