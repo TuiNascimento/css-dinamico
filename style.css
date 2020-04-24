@@ -44,8 +44,10 @@ body{
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 2fr auto 1fr;
             margin: 15% auto;
-            width: 75%;
-            height: 55%;
+            width: 482px;
+            height: 280px;
+            bottom:auto;
+            right: auto;
             opacity: 0.9;
             box-shadow: 0 0 4px black;
         }
